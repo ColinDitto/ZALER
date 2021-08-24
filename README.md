@@ -7,3 +7,12 @@ C++ SERVER
             参考（https://blog.csdn.net/xiaoheibaqi/article/details/51272009）（https://blog.csdn.net/qq_33485434/article/details/78418012）                                         (https://www.cnblogs.com/schips/p/12309999.html)
             
 2.streamstring:(https://blog.csdn.net/Sophia1224/article/details/53054698?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
+
+3.c++中的auto、const auto&:
+
+       想要拷贝元素：for(auto x:range)
+
+       想要修改元素 :  for(auto &&x:range)
+
+       想要只读元素：for(const auto& x:range)                                                                                                                                                                               
+       (https://www.cnblogs.com/Nothing-9708071624/p/10167982.html)
