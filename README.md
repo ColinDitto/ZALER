@@ -1,4 +1,6 @@
 # ZALER
 C++ SERVER
-1. override:如果派生类在虚函数声明时使用了override描述符，那么该函数必须重载其基类中的同名函数，否则代码将无法通过编译。
-  参考（https://blog.csdn.net/xiaoheibaqi/article/details/51272009）
+1. override:描述：override保留字表示当前函数重写了基类的虚函数。 
+            目的：1.在函数比较多的情况下可以提示读者某个函数重写了基类虚函数（表示这个虚函数是从基类继承，不是派生类自己定义的）；2.强制编译器检查某个函数是否重写基类虚函数，如果没有则报错。
+            用法：在类的成员函数参数列表后面添加该关键字既可。
+            参考（https://blog.csdn.net/xiaoheibaqi/article/details/51272009）（https://blog.csdn.net/qq_33485434/article/details/78418012）
