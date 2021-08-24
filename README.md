@@ -1,6 +1,6 @@
 # ZALER
 C++ SERVER
-1. override:描述：override保留字表示当前函数重写了基类的虚函数。 
-            目的：1.在函数比较多的情况下可以提示读者某个函数重写了基类虚函数（表示这个虚函数是从基类继承，不是派生类自己定义的）；2.强制编译器检查某个函数是否重写基类虚函数，如果没有则报错。
-            用法：在类的成员函数参数列表后面添加该关键字既可。
-            参考（https://blog.csdn.net/xiaoheibaqi/article/details/51272009）（https://blog.csdn.net/qq_33485434/article/details/78418012）
+1. override:作用：在成员函数声明或定义中， override 确保该函数为虚函数并覆写来自基类的虚函数。  
+            位置：函数调用运算符之后，函数体或纯虚函数标识 “= 0” 之前。  
+            使用以后有以下好处:  1．可以当注释用,方便阅读  2．告诉阅读你代码的人，这是方法的复写  3．编译器可以给你验证 override 对应的方法名是否是你父类中所有的，如果没有则报错．
+            参考（https://blog.csdn.net/xiaoheibaqi/article/details/51272009）（https://blog.csdn.net/qq_33485434/article/details/78418012）                                         (https://www.cnblogs.com/schips/p/12309999.html)
